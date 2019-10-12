@@ -9,9 +9,9 @@ import pandas as pd
 
 writer = pd.ExcelWriter('hockeyStats.xlsx', engine='xlsxwriter')
 
-NHL_abbrevs=["ANA","ARI","BOS","BUF","CAL","CAR","CHI","COL",
+NHL_abbrevs=["ANA","ARI","BOS","BUF","CGY","CAR","CHI","COL",
              "CBJ","DAL","DET","EDM","FLA","Avg","LAK","MIN",
-             "MON","NSH","NJD","NYI","NYR","OTT","PHI","PIT",
+             "MTL","NSH","NJD","NYI","NYR","OTT","PHI","PIT",
              "SJS","STL","TBL","TOR","VAN","VEG","WSH","WPG"]
 
 domains = ["https://www.hockey-reference.com/"]
