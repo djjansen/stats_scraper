@@ -42,6 +42,6 @@ for domain in domains:
         statsDf = pd.DataFrame(statsDf)    
         print(statsDf)
         
-        statsDf.to_excel(writer, sheet_name=subdomains[page])
+        statsDf.to_excel(writer, sheet_name=subdomains[page],header=False)
 
 writer.save()
