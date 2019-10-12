@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
-
-This is a temporary script file.
+Last updated on 10/12/2019
 """
 
 from bs4 import BeautifulSoup,Comment
